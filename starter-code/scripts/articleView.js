@@ -60,7 +60,7 @@ articleView.setTeasers = function() {
     // console.log($(this).prev());
     $(this).prev().find('*').show();
     $(this).prev().find('*');
-    $('.read-on').hide();
+    $(this).hide();
   });
 };
 
